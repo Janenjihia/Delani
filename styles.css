@@ -35,4 +35,7 @@ body{
     margin-top: 60px;
     margin-bottom: 60px;
     }
+    .para1, .para2, .para3{
+      display: none;
+    }
     
