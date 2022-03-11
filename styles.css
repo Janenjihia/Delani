@@ -23,3 +23,12 @@ body{
   padding-top: 140px;
   animation: bounce 5s infinite;
 }
+#section2{
+  margin: 60px auto;
+  }
+  #section3{
+    background-image: url(images/background2.jpg);
+    color: #fff;
+    padding: 100px 10%;
+  }
+  
