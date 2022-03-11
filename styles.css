@@ -46,4 +46,62 @@ body{
       margin: 25px auto;
       padding: 5px;
     }
+    .project1{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work1.jpg);
+      background-size: cover;
+    }
+    .project2{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work2.jpg);
+      background-size: cover;
+    }
+    .project3{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work3.jpg);
+      background-size: cover;
+    
+    }
+    .project4{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work4.jpg);
+      background-size: cover;
+    }
+    .project5{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work5.jpg);
+      background-size: cover;
+    }
+    .project6{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work6.jpg);
+      background-size: cover;
+    }
+    
+    .project7{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work7.jpg);
+      background-size: cover;
+    }
+    .project8{
+      width: 155px;
+      height: 155px;
+      margin: 6px;
+      background-image: url(/images/work8.jpg);
+      background-size: cover;
+    }
     
