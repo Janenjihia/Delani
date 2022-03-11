@@ -120,4 +120,11 @@ body{
     
     .text>p {
       padding-top: 70px;
-    }    
+    }  
+    #section6{
+      background-image: url(/images/background3.jpg);
+      padding: 40px 5px;
+      color: rgb(231, 228, 228);
+      max-width: 100vw;
+      }  
+      
