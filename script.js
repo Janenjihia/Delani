@@ -44,3 +44,18 @@ $(document).ready(function(){
   $(this).animate({opacity:'0'});
 })
 });
+$(document).ready(function(){
+  $("form#submission").on('submit',function(event){
+      event.preventDefault();
+      let name = $("input:first").val();
+      let email = $("input#mail").val();
+      let message = $("textarea#message").val();
+      if ($("input:first").val() && $("input#mail").val()){
+          alert ("Hey " + name + ", Thanks we are glad to receive your message we will get back shortly");
+      }
+      else {
+          alert("Please enter your valid name and email!");
+      }
+      event.preventDefault();
+    })
+});
