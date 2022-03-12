@@ -24,3 +24,15 @@ $(document).ready(function(){
     $(".development").show(1200);
   });
 });
+$(document).ready(function(){
+  $(".management").click(function(){
+    $(".management").hide(1200);
+    $(".para3").toggle(1200);
+    $(".para3").show(1200);
+  })
+  $(".p3").click(function(){
+    $(".p3").hide(1200);
+    $(".management").toggle(1200);
+    $(".management").show(1200);
+  });
+});
