@@ -1,39 +1,39 @@
 $(document).ready(function(){
-  $(".design1").click(function(){
-    $(".design1").hide(1200);
-    $(".para1").toggle(1200);
-    $(".para1").show(1200);
+  $(".design1").on('click',function(){
+    $(".design1").show(1400);
+    $(".explanation1").toggle(1400);
+    $(".explanation1").hide(1400);
   })
-  $(".para1").click(function(){
-    $(".para1").hide(1200);
-    $(".design1").toggle(1200);
-    $(".design1").show(1200);
+  $(".explanation1").on('click',function(){
+    $(".explanation1").show(1400);
+    $(".design1").toggle(1400);
+    $(".design1").hide(1400);
   });
 });
 $(document).ready(function(){
-  $(".development").click(function(){
-    $(".development").hide(1200);
-    $(".para2").toggle(1200);
-    $(".para2").show(1200);
+  $(".development").on('click',function(){
+    $(".development").show(1400);
+    $(".explanation2").toggle(1400);
+    $(".explanation2").hide(1400);
   })
 
 
-  $(".para2").click(function(){
-    $(".para2").hide(1200);
-    $(".development").toggle(1200);
-    $(".development").show(1200);
+  $(".explanation2").on('click',function(){
+    $(".explanation2").show(1400);
+    $(".development").toggle(1400);
+    $(".development").hide(1400);
   });
 });
 $(document).ready(function(){
-  $(".management").click(function(){
-    $(".management").hide(1200);
-    $(".para3").toggle(1200);
-    $(".para3").show(1200);
+  $(".management").on('click',function(){
+    $(".management").show(1400);
+    $(".explanation3").toggle(1400);
+    $(".explanation3").hide(1400);
   })
-  $(".p3").click(function(){
-    $(".p3").hide(1200);
-    $(".management").toggle(1200);
-    $(".management").show(1200);
+  $(".explanation3").on('click',function(){
+    $(".explanation13").show(1400);
+    $(".management").toggle(1400);
+    $(".management").hide(1400);
   });
 });
 $(document).ready(function(){
@@ -45,7 +45,7 @@ $(document).ready(function(){
 })
 });
 $(document).ready(function(){
-  $("form#submission").on('submit',function(event){
+  $("form#submission").onSubmit('submit',function(event){
       event.preventDefault();
       let name = $("input:first").val();
       let email = $("input#mail").val();
