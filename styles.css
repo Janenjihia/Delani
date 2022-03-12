@@ -9,7 +9,7 @@ body{
   text-align: center;
 }
 #section1{
-  background-image: url(/images/background1.jpg);
+  background-image: url(./images/background1.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -27,7 +27,7 @@ body{
   margin: 60px auto;
   }
   #section3{
-    background-image: url(images/background2.jpg);
+    background-image: url(./images/background2.jpg);
     color: #fff;
     padding: 100px 10%;
   }
@@ -53,21 +53,21 @@ body{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work4.jpg);
+      background-image: url(./images/work4.jpg);
       background-size: cover;
     }
     .project2{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work3.jpg);
+      background-image: url(./images/work3.jpg);
       background-size: cover;
     }
     .project3{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work2.jpg);
+      background-image: url(./images/work2.jpg);
       background-size: cover;
     
     }
@@ -75,21 +75,21 @@ body{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work5.jpg);
+      background-image: url(./images/work5.jpg);
       background-size: cover;
     }
     .project5{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work6.jpg);
+      background-image: url(./images/work6.jpg);
       background-size: cover;
     }
     .project6{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work1.jpg);
+      background-image: url(./images/work1.jpg);
       background-size: cover;
     }
     
@@ -97,14 +97,14 @@ body{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work7.jpg);
+      background-image: url(./images/work7.jpg);
       background-size: cover;
     }
     .project8{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work8.jpg);
+      background-image: url(./images/work8.jpg);
       background-size: cover;
     }
     .text{
