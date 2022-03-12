@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $(".design1").click(function(){
+    $(".design1").hide(1200);
+    $(".para1").toggle(1200);
+    $(".para1").show(1200);
+  })
+  $(".para1").click(function(){
+    $(".para1").hide(1200);
+    $(".design1").toggle(1200);
+    $(".design1").show(1200);
+  });
+});
