@@ -39,7 +39,7 @@ body{
       display: none;
     }
     #section5 h1{
-      -ms-flex-align: start;
+      align-self: initial;
     }
     #section5{
       display: flex;

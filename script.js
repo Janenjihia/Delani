@@ -45,7 +45,7 @@ $(document).ready(function(){
 })
 });
 $(document).ready(function(){
-  $("form#submission").onSubmit('submit',function(event){
+  $("#submission").onSubmit('submit',function(event){
       event.preventDefault();
       let name = $("input:first").val();
       let email = $("input#mail").val();
