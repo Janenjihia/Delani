@@ -45,9 +45,9 @@ $(document).ready(function(){
 })
 });
 $(document).ready(function(){
-  $("#submission").onSubmit('submit',function(event){
+  $("#submission").submit('submit',function(event){
       event.preventDefault();
-      let name = $("input:first").val();
+      let name = $("input.name").val();
       let email = $("input#mail").val();
       let message = $("textarea#message").val();
       if ($("input:first").val() && $("input#mail").val()){
