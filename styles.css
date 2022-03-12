@@ -50,21 +50,21 @@ body{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work1.jpg);
+      background-image: url(/images/work4.jpg);
       background-size: cover;
     }
     .project2{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work2.jpg);
+      background-image: url(/images/work3.jpg);
       background-size: cover;
     }
     .project3{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work3.jpg);
+      background-image: url(/images/work2.jpg);
       background-size: cover;
     
     }
@@ -72,21 +72,21 @@ body{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work4.jpg);
+      background-image: url(/images/work5.jpg);
       background-size: cover;
     }
     .project5{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work5.jpg);
+      background-image: url(/images/work6.jpg);
       background-size: cover;
     }
     .project6{
       width: 155px;
       height: 155px;
       margin: 6px;
-      background-image: url(/images/work6.jpg);
+      background-image: url(/images/work1.jpg);
       background-size: cover;
     }
     
